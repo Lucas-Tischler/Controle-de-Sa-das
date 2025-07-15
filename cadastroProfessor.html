@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastrar Professores</title>
+  <link rel="icon" type="image/png" href="pug.png">
+  <script src="cadastroProfessor.js" defer></script>
+  <link rel="stylesheet" href="styleProfessores.css" />
+</head>
+
+<body>
+  <div class="footer"></div>
+  <div class="container">
+
+    <div class="batata">
+      <h1>Cadastrar Professores</h1>
+      <img src="./Professor.png" alt="" id="Professor">
+    </div>
+
+
+    <div class="forma_caixa">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" placeholder="Nome">
+
+      <label for="sobrenome">Sobrenome</label>
+      <input type="text" id="sobrenome" placeholder="Sobrenome">
+
+      <label for="matricula">Matrícula</label>
+      <input type="text" id="matricula" placeholder="Matrícula">
+
+      <label for="telefone">Telefone</label>
+      <input type="text" id="telefone" placeholder="Telefone">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Email">
+
+      <button class="formato_botao" id="cadastrar">Cadastrar</button>
+
+      <div id="res"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <a href="./listarProfessores.html" class="botao_navegacao">Listar</a>
+    <a href="./consultarProfessores.html" class="botao_navegacao">Consultar</a>
+    <a href="./atualizarProfessores.html" class="botao_navegacao">Atualizar</a>
+    <a href="./ApagarProfessores.html" class="botao_navegacao">Apagar</a>
+    <a href="./index.html"><img src="image.png" alt="imagem" class="voltar"></a>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastrar Saídas</title>
+  <link rel="icon" type="image/png" href="pug.png">
+  <link rel="stylesheet" href="styleSaída.css" />
+  <script src="cadastrarSaida.js" defer></script>
+</head>
+
+<body>
+  <div class="footer"></div>
+  <div class="container">
+    <div class="batata">
+      <h1>Cadastrar Saídas</h1>
+      <img src="./saida.png" alt="Ícone Saída" id="Saida">
+    </div>
+
+    <div class="forma_caixa">
+      <label for="dataSolicitacao">Data da Solicitação</label>
+      <input type="date" id="dataSolicitacao">
+
+      <label for="horaSaida">Hora da Saída</label>
+      <input type="time" id="horaSaida">
+
+      <label for="horaRetorno">Hora do Retorno</label>
+      <input type="time" id="horaRetorno">
+
+      <label for="motivo">Motivo</label>
+      <input type="text" id="motivo" placeholder="Motivo">
+
+      <label for="localDestino">Local de Destino</label>
+      <input type="text" id="localDestino" placeholder="Destino">
+
+      <label for="status">Status</label>
+      <input type="text" id="status" placeholder="Status">
+
+      <label for="nomeAluno">Nome do Aluno</label>
+      <input type="text" id="nomeAluno" placeholder="Nome completo do aluno">
+
+      <label for="nomeProfessor">Nome do Professor</label>
+      <input type="text" id="nomeProfessor" placeholder="Nome completo do professor">
+
+      <label for="aluno_cod">ID Aluno</label>
+      <input type="text" id="aluno_cod" placeholder="Nome completo do professor">
+
+      <label for="professor_cod">ID Professor</label>
+      <input type="text" id="professor_cod" placeholder="Nome completo do professor">
+
+      <button class="formato_botao" id="cadastrar">Cadastrar</button>
+
+      <div id="res"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <a href="./listarSaídas.Html" class="botao_navegacao">Listar</a>
+    <a href="./consultarSaidas.html" class="botao_navegacao">Consultar</a>
+    <a href="./atualizarSidas.html" class="botao_navegacao">Atualizar</a>
+    <a href="./ApagarSaidas.html" class="botao_navegacao">Apagar</a>
+    <a href="./index.html"><img src="image.png" alt="Voltar" class="voltar"></a>
+  </footer>
+</body>
+
+</html>

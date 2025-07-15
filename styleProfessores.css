@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.codigo-destaque {
+  color: #00ffcc;
+  font-weight: bold;
+}
+
+#res {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #81818177;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 10px 0;
+}
+
+#res {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #81818177;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+body {
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  text-align: center;
+}
+
+label {
+  color: white;
+}
+
+h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+
+.forma_caixa {
+  background-color: rgb(0, 0, 0);
+  border-radius: 12px;
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.forma_caixa label {
+  text-align: left;
+  font-size: 14px;
+}
+
+.forma_caixa input {
+  border: none;
+  border-radius: 15px;
+  padding: 8px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+
+.formato_botao,
+.main-button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.main-button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: white;
+}
+
+
+.box-listar {
+  background-color: rgb(0, 0, 0);
+  border-radius: 12px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-color: #2000d4;
+  padding: 10px 0;
+}
+
+
+.botao_navegacao {
+  background-color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.botao_navegacao:hover {
+  background-color: #8c00ff;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgb(0, 225, 255);
+}
+
+.voltar:hover {
+  background-color: #51fa03f5;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.nav-button.selected {
+  background-color: rgb(255, 255, 255);
+}
+
+.voltar {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.main-button:hover {
+  background-color: #fd0606;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+#Professor {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.batata {
+  display: flex;
+  flex-direction: row;
+}
